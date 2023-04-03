@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+body{
+    background-color: transparent;
+    font-family: "Inter", sans-serif;
+}
+.form{
+    margin-left: 35%;
+    margin-top: 12%;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+}
+.form h3{
+   letter-spacing: 2px;
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.form input{
+    font-size: 1em;
+    color: grey;
+    width: 350px;
+    height: 60px;
+    padding-left: 15px;
+    margin-top: 25px;
+    margin-left: 25px;
+    box-sizing: border-box;
+    border-color: rgb(196, 193, 193);
+}
+.form button{ 
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+    color: white;
+    width: 350px;
+    height: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    font-size: 1em;
+}
+.form p{
+    text-align: center;
+    font-size: 1em;
+}
+.form a{
+    color: deepskyblue;
+}
